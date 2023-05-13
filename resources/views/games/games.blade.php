@@ -5,7 +5,7 @@
     <div class="bd-example" >
         <div class="row">
             <div class="col-4 nav_left_col">
-                <nav id="navbar-example3" class="card vh-100 flex-column align-items-stretch pe-4 border-end nav_left_item" >
+                <nav id="navbar-example3" class="card flex-column align-items-stretch pe-4 border-end nav_left_item" >
                     <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item-5" style="font-size: 1em">ПЛЕЙ-ОФФ 5-8</a>
                         <nav class="nav nav-pills flex-column">
