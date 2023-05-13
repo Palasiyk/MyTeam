@@ -12,14 +12,14 @@
             <div class="col-4 d-flex flex-column text-center  justify-content-center">
                 <div class="card row m-2 play-off_border">
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/epic.svg" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/epic.svg" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Епіцентр-Подоляни"</h4>
                         <div class="col-3">
                             <h3 class="play-off_number">2</h3>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/barcom.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/barcom.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Барком-Збірна України U-18"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">0</h2>
@@ -28,14 +28,14 @@
                 </div>
                 <div class="card row m-2 play-off_border">
                     <div class="row col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/prom.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/prom.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">ВК "Прометей"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">2</h2>
                         </div>
                     </div>
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/DSO.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/DSO.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"ПОЛІЦІЯ ОХОРОНИ-ЗУНУ-ДИНАМО"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">0</h2>
@@ -44,14 +44,14 @@
                 </div>
                 <div class="card row m-2 play-off_border">
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/zutu.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/zutu.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Житичі-Полісся"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">2</h2>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/reset.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/reset.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"ВК "Решетилівка"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">0</h2>
@@ -60,14 +60,14 @@
                 </div>
                 <div class="card row m-2 play-off_border">
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/mxp.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/mxp.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"МХП-Вінниця"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">1</h2>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/law.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/law.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">ВСК "Юридична академія"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">2</h2>
@@ -79,14 +79,14 @@
             <div class="col-4 d-flex flex-column justify-content-around">
                 <div class="card row m-2 play-off_border">
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/epic.svg" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/epic.svg" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Епіцентр-Подоляни"</h4>
                         <div class="col-3">
                             <h3 class="play-off_number">2</h3>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/law.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/law.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">ВСК "Юридична академія"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">0</h2>
@@ -95,14 +95,14 @@
                 </div>
                 <div class="card row m-2 play-off_border">
                     <div class="row col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/prom.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/prom.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">ВК "Прометей"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">2</h2>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/zutu.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/zutu.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Житичі-Полісся"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">0</h2>
@@ -115,14 +115,14 @@
                 <div class="card row m-2 play-off_border">
                     <h6 class="text-center play-off_text">Final</h6>
                     <div class="row col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/prom.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/prom.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">ВК "Прометей"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">3</h2>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/epic.svg" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/epic.svg" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Епіцентр-Подоляни"</h4>
                         <div class="col-3">
                             <h3 class="play-off_number">1</h3>
@@ -132,14 +132,14 @@
                 <div class="card row m-2 play-off_border">
                     <h3 class="text-center play-off_text">3 місце</h3>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/law.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/law.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">ВСК "Юридична академія"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">3</h2>
                         </div>
                     </div>
                     <div class="row d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img class="col-3 kalendar_img" src="../../images/logo/zutu.png" alt="logo">
+                        <img class="col-3 kalendar_img" src="/public/images/logo/zutu.png" alt="logo">
                         <h4 class="col-6 team_name_play-off">"Житичі-Полісся"</h4>
                         <div class="col-3">
                             <h2 class="play-off_number">0</h2>
@@ -171,7 +171,7 @@
                     <tr>
                         <th scope="row">5</th>
                         <td>
-                            <img class="card-img" style="width: 60px" src="../../images/logo/mxp.png" alt="logo">
+                            <img class="card-img" style="width: 60px" src="/public/images/logo/mxp.png" alt="logo">
                         </td>
                         <td class="team_name">Волейбольний клуб "МХП-Вінниця"-ШВСМ</td>
                         <td>3</td>
@@ -184,7 +184,7 @@
                     <tr>
                         <th scope="row">6</th>
                         <td>
-                            <img style="width: 60px" src="../../images/logo/barcom.png" alt="logo">
+                            <img style="width: 60px" src="/public/images/logo/barcom.png" alt="logo">
                         </td>
                         <td class="team_name">"Барком-Збірна України U-18"</td>
                         <td>3</td>
@@ -196,7 +196,7 @@
                     <tr>
                         <th scope="row">7</th>
                         <td class="">
-                            <img style="width: 60px" src="../../images/logo/DSO.png" alt="logo">
+                            <img style="width: 60px" src="/public/images/logo/DSO.png" alt="logo">
                         </td>
                         <td class="team_name">"ПОЛІЦІЯ ОХОРОНИ-ЗУНУ-ДИНАМО"</td>
                         <td>3</td>
@@ -208,7 +208,7 @@
                     <tr>
                         <th scope="row">8</th>
                         <td>
-                            <img style="width: 60px" src="../../images/logo/reset.png" alt="logo">
+                            <img style="width: 60px" src="/public/images/logo/reset.png" alt="logo">
                         </td>
                         <td class="team_name">"Збірна Полтавської області ВК "Решетилівка"</td>
                         <td>3</td>
@@ -244,7 +244,7 @@
                 <tr>
                     <th scope="row">1</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/epic.svg" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/epic.svg" alt="logo">
                     </td>
                     <td class="team_name">"Епіцентр-Подоляни"</td>
                     <td>21</td>
@@ -257,7 +257,7 @@
                 <tr>
                     <th scope="row">2</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/prom.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/prom.png" alt="logo">
                     </td>
                     <td class="team_name">ВК "Прометей"</td>
                     <td>21</td>
@@ -270,7 +270,7 @@
                 <tr>
                     <th scope="row">3</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/zutu.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/zutu.png" alt="logo">
                     </td>
                     <td class="team_name">ВК "Житичі-Полісся"</td>
                     <td>21</td>
@@ -283,7 +283,7 @@
                 <tr>
                     <th scope="row">4</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/mxp.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/mxp.png" alt="logo">
                     </td>
                     <td class="team_name">Волейбольний клуб "МХП-Вінниця"-ШВСМ</td>
                     <td>21</td>
@@ -296,7 +296,7 @@
                 <tr>
                     <th scope="row">5</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/law.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/law.png" alt="logo">
                     </td>
                     <td class="team_name">ВСК "Юридична академія"</td>
                     <td>21</td>
@@ -309,7 +309,7 @@
                 <tr>
                     <th scope="row">6</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/reset.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/reset.png" alt="logo">
                     </td>
                     <td class="team_name">"Збірна Полтавської області ВК "Решетилівка"</td>
                     <td>21</td>
@@ -322,7 +322,7 @@
                 <tr>
                     <th scope="row">7</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/DSO.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/DSO.png" alt="logo">
                     </td>
                     <td class="team_name">"ПОЛІЦІЯ ОХОРОНИ-ЗУНУ-ДИНАМО"</td>
                     <td>21</td>
@@ -335,7 +335,7 @@
                 <tr>
                     <th scope="row">8</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/barcom.png" alt="logo">
+                        <img style="width: 60px" src="/public/images/logo/barcom.png" alt="logo">
                     </td>
                     <td class="team_name">"Барком-Збірна України U-18"</td>
                     <td>21</td>

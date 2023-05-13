@@ -1,4 +1,13 @@
 {
+  "public/images/header.png": {
+    "file": "assets/header-a1944ab5.png",
+    "src": "public/images/header.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-ad3cc584.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
   "resources/js/app.js": {
     "file": "assets/app-d4b42df8.js",
     "isEntry": true,

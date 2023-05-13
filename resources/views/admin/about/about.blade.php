@@ -29,24 +29,24 @@
             <div class="row justify-content-between align-items-center text-center p-3">
                 <div class="col text-center">
                     <div class="about_logo text-center">
-                        <img src="../../images/sponsor/getFit.svg" alt="get">
+                        <img src="public/images/sponsor/getFit.svg" alt="get">
                     </div>
                 </div>
                 <div class="col">
                     <div class="about_logo text-center">
-                        <img src="../../images/sponsor/UOSK_LOGO_mono-_1_.svg" alt="uosk">
+                        <img src="public/images/sponsor/UOSK_LOGO_mono-_1_.svg" alt="uosk">
                     </div>
 
                 </div>
                 <div class="col text-start">
                     <div class="about_logo text-center">
-                        <img src="../../images/sponsor/zunu.png" alt="get">
+                        <img src="public/images/sponsor/zunu.png" alt="get">
                     </div>
                 </div>
             </div>
             <div class="row align-items-center">
                 <div class="about_logo text-center">
-                    <img src="../../images/sponsor/logo-pol-01.png" alt="pol">
+                    <img src="public/images/sponsor/logo-pol-01.png" alt="pol">
                 </div>
             </div>
         </div>

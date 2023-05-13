@@ -60,10 +60,10 @@
                                     </div>
                                     <div class="row mb-4 text-center d-flex">
                                         <a class="col" href="{{ $PlayOff->foto }}">
-                                            <img class="display-block" width="100%" src="../../images/logo/{{ $PlayOff->game['team_foto'] }}" alt="foto">
+                                            <img class="display-block" width="100%" src="public/images/logo/{{ $PlayOff->game['team_foto'] }}" alt="foto">
                                         </a>
                                         <a class="col" href="{{ $PlayOff->stat }}">
-                                            <img class="display-block" width="100%" src="../../images/Statictiks/resetul1tur.png" alt="Статитика">
+                                            <img class="display-block" width="100%" src="public/images/Statictiks/resetul1tur.png" alt="Статитика">
                                         </a>
                                     </div>
                                 </div>
@@ -80,10 +80,10 @@
                                         </div>
                                         <div class="row mb-4 text-center d-flex">
                                             <a class="col" href="{{ $Game3->foto }}">
-                                                <img class="display-block" width="100%" src="../../images/logo/{{ $Game3->game['team_foto'] }}" alt="foto">
+                                                <img class="display-block" width="100%" src="public/images/logo/{{ $Game3->game['team_foto'] }}" alt="foto">
                                             </a>
                                             <a class="col" href="{{ $Game3->stat }}">
-                                                <img class="display-block" width="100%" src="../../images/Statictiks/resetul1tur.png" alt="Статитика">
+                                                <img class="display-block" width="100%" src="public/images/Statictiks/resetul1tur.png" alt="Статитика">
                                             </a>
                                         </div>
                                     </div>
@@ -100,10 +100,10 @@
                                         </div>
                                         <div class="row mb-4 text-center d-flex">
                                             <a class="col" href="{{ $Kup->foto }}">
-                                                <img class="display-block" width="100%" src="../../images/logo/{{ $Kup->game['team_foto'] }}" alt="foto">
+                                                <img class="display-block" width="100%" src="public/images/logo/{{ $Kup->game['team_foto'] }}" alt="foto">
                                             </a>
                                             <a class="col" href="{{ $Kup->stat }}">
-                                                <img class="display-block" width="100%" src="../../images/Statictiks/resetul1tur.png" alt="Статитика">
+                                                <img class="display-block" width="100%" src="public/images/Statictiks/resetul1tur.png" alt="Статитика">
                                             </a>
                                         </div>
                                     </div>
@@ -120,10 +120,10 @@
                                         </div>
                                         <div class="row mb-4 text-center d-flex">
                                             <a class="col" href="{{ $Game2->foto }}">
-                                                <img class="display-block" width="100%" src="../../images/logo/{{ $Game2->game['team_foto'] }}" alt="foto">
+                                                <img class="display-block" width="100%" src="public/images/logo/{{ $Game2->game['team_foto'] }}" alt="foto">
                                             </a>
                                             <a class="col" href="{{ $Game2->stat }}">
-                                                <img class="display-block" width="100%" src="../../images/Statictiks/resetul1tur.png" alt="Статитика">
+                                                <img class="display-block" width="100%" src="public/images/Statictiks/resetul1tur.png" alt="Статитика">
                                             </a>
                                         </div>
                                     </div>
@@ -140,10 +140,10 @@
                                         </div>
                                         <div class="row mb-4 text-center d-flex">
                                             <a class="col" href="{{ $Game1->foto }}">
-                                                <img class="display-block" width="100%" src="../../images/logo/{{ $Game1->game['team_foto'] }}" alt="foto">
+                                                <img class="display-block" width="100%" src="public/images/logo/{{ $Game1->game['team_foto'] }}" alt="foto">
                                             </a>
                                             <a class="col" href="{{ $Game1->stat }}">
-                                                <img class="display-block" width="100%" src="../../images/Statictiks/resetul1tur.png" alt="Статитика">
+                                                <img class="display-block" width="100%" src="public/images/Statictiks/resetul1tur.png" alt="Статитика">
                                             </a>
                                         </div>
                                     </div>

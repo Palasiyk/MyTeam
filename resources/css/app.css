@@ -1,7 +1,7 @@
 
 /*body*/
 body{
-    /*background: url("/public/images/header.png") center/auto 110% no-repeat fixed;*/
+    background: url("/public/images/header.png") center/auto 110% no-repeat fixed;
 }
 main{
     filter: drop-shadow(0px 0px 100px #ffffff)!important;
@@ -11,7 +11,7 @@ main{
     /*filter: drop-shadow(0px 0px 10px #6B46FE)!important;*/
 }
 .card{
-    margin: 15px;
+    /*margin: 15px;*/
     filter: drop-shadow(0px 0px 10px #7d1dd4)!important;
 }
 iframe{
@@ -95,9 +95,17 @@ header{
 
 /*Player*/
 .player_foto {
+    max-height: 700px;
+}
+.player_foto_img{
+    max-height: 500px;
     overflow: hidden;
 }
-img {
+.coach_foto_img{
+    max-height: 400px;
+    overflow: hidden;
+}
+img{
     transition: transform 0.25s;
 }
 .player_foto:hover img {
@@ -106,9 +114,15 @@ img {
 
 
 
-/*Statust*/
+/*Statist*/
 .table-fonts{
     font-size: 0.6em;
+}
+.stat_table{
+    background-color: rgba(255, 255, 255, 0.73);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
 }
 
 
@@ -134,7 +148,7 @@ img {
 .slik-kalendar{
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgba(254, 255, 254, 0.66);
 }
 @media (max-width: 1024px) {
     .team_name_play-off{
@@ -232,9 +246,9 @@ img {
 
 /*footer*/
 footer{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     /*opacity: 0.7;*/
     width: 100% !important;
-    filter: drop-shadow(0px 0px 15px #7d1dd4)!important;
+    /*filter: drop-shadow(0px 0px 15px #7d1dd4)!important;*/
 }
 

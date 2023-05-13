@@ -3,7 +3,7 @@
 @section('content')
 
     <h2 class="team_list_name">Player Statistiks</h2>
-    <div class="card" style="margin: 0 auto; width: 100%; max-width: 1400px">
+    <div class="stat_table">
         <table class="table table-hover table-striped-columns table-fonts text-center">
             <thead>
             <tr class="slik-kalendar">

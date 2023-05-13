@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'DSO') }}</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -16,79 +16,78 @@
     @vite(['resources/sass/app.scss', 'resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <header id="app">
-        <header>
-            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-                <div class="container">
-                    <a class="navbar-brand" href="/admin_panel">
-                        <img class="logo" src="../../images/DSO.svg" alt="logo">
-                    </a>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="/admin_panel">
+                    <img class="logo" src="public/images/DSO.svg" alt="logo">
+                </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav">
-                            <li><a href="{{ url('/') }}" class="nav-link px-2 link-dark">Home</a></li>
-                            <li><a href="/player" class="nav-link px-2 link-dark">Team</a></li>
-                            <li><a href="/stat" class="nav-link px-2 link-dark">Statistiks</a></li>
-                            <li><a href="/kalendar" class="nav-link px-2 link-dark">Kalendar</a></li>
-                            <li><a href="/games" class="nav-link px-2 link-dark">Games</a></li>
-                            <li><a href="{{ route('about') }}" class="nav-link px-2 link-dark">About</a></li>
-                        </ul>
+                    <ul class="navbar-nav">
+                        <li><a href="{{ url('/') }}" class="nav-link px-2 link-dark">Home</a></li>
+                        <li><a href="/player" class="nav-link px-2 link-dark">Team</a></li>
+                        <li><a href="/stat" class="nav-link px-2 link-dark">Statistiks</a></li>
+                        <li><a href="/kalendar" class="nav-link px-2 link-dark">Kalendar</a></li>
+                        <li><a href="/games" class="nav-link px-2 link-dark">Games</a></li>
+                        <li><a href="{{ route('about') }}" class="nav-link px-2 link-dark">About</a></li>
+                    </ul>
 
-                        <!-- Right Side Of Navbar -->
-                        <ul class="navbar-nav ms-auto">
-                            <!-- Authentication Links -->
-                            @guest
-                                @if (Route::has('login'))
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                    </li>
-                                @endif
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            @if (Route::has('login'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li>
+                            @endif
 
-                                @if (Route::has('register'))
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                    </li>
-                                @endif
-                            @else
-                                <li class="nav-item dropdown">
-                                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                        {{ Auth::user()->name }}
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    {{--                                    <a href="/admin_panel" class="nav-link px-2 link-dark dropdown-item">Admin</a>--}}
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
                                     </a>
 
-                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        {{--                                    <a href="/admin_panel" class="nav-link px-2 link-dark dropdown-item">Admin</a>--}}
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
-                                           onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            {{ __('Logout') }}
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                            @csrf
-                                        </form>
-                                    </div>
-                                </li>
-                            @endguest
-                        </ul>
-                    </div>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
 
-        <main class="container py-4 mt-2 mb-3">
-            @yield('content')
-        </main>
+    <main class="container py-4 mt-2 mb-3">
+        @yield('content')
+    </main>
 
 
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center border-top container">
-        <div class="nav col-md-4 m-3 justify-content-start list-unstyled d-flex">
+        <div class="nav col-md-3 m-3 justify-content-start list-unstyled d-flex">
             <div class="ms-3">
                 <a href="https://www.instagram.com/pvlu_org/" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -123,7 +122,7 @@
             </div>
         </div>
 
-        <ul class="nav col-md-4 justify-content-end">
+        <ul class="nav col-md-8 justify-content-end">
             <li><a href="{{ url('/') }}" class="nav-link px-2 link-dark">Home</a></li>
             <li><a href="/player" class="nav-link px-2 link-dark">Team</a></li>
             <li><a href="/stat" class="nav-link px-2 link-dark">Statistiks</a></li>
@@ -132,5 +131,6 @@
             <li><a href="{{ route('about') }}" class="nav-link px-2 link-dark">About</a></li>
         </ul>
     </footer>
+
 </body>
 </html>

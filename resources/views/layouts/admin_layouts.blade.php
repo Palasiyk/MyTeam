@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,19 +8,19 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="/admin/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="public/admin/plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
-    <link rel="stylesheet" href="/admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="public/admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- iCheck -->
-    <link rel="stylesheet" href="/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link rel="stylesheet" href="public/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- JQVMap -->
-    <link rel="stylesheet" href="/admin/plugins/jqvmap/jqvmap.min.css">
+    <link rel="stylesheet" href="public/admin/plugins/jqvmap/jqvmap.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="/admin/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="public/admin/dist/css/adminlte.min.css">
     <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="public/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
 {{--    <link rel="stylesheet" href="admin/plugins/daterangepicker/daterangepicker.css">--}}
     <!-- summernote -->
@@ -33,7 +33,7 @@
 
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-        <img class="animation__shake" src="../../images/logo/DSO.svg" alt="AdminLTELogo" height="60" width="60">
+        <img class="animation__shake" src="public/images/logo/DSO.svg" alt="AdminLTELogo" height="60" width="60">
     </div>
 
     <!-- /.navbar -->
@@ -42,7 +42,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="/" class="brand-link" data-widget="pushmenu" href="#" role="button">
-            <img src="/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <img src="public/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">AdminLTE 3</span>
         </a>
 
@@ -167,9 +167,9 @@
 </div>
 
 <!-- jQuery -->
-<script src="/admin/plugins/jquery/jquery.min.js"></script>
+<script src="public/admin/plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="public/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 {{--<script>--}}
 {{--    $.widget.bridge('uibutton', $.ui.button)--}}
@@ -195,7 +195,7 @@
 {{--<!-- overlayScrollbars -->--}}
 {{--<script src="admin/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>--}}
 <!-- AdminLTE App -->
-<script src="/admin/dist/js/adminlte.js"></script>
+<script src="public/admin/dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes -->
 {{--<script src="admin/dist/js/demo.js"></script>--}}
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->

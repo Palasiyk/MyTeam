@@ -8,10 +8,10 @@
         <div class="card rounded-3 shadow-sm">
             <div class="row">
                 <h1 class="text-center font-monospace border-3 m-3">{{$id->name}}</h1>
-                <div class="col text-center">
+                <div class="col-lg-6 col-sm-12  text-center">
                     <a href="{{$id->insta}}">
                         <img class="mb-4 bd-placeholder-img card-img-top" style="max-width: 500px"
-                             src="../../images/team/{{$id->image}}" alt="omelchenko">
+                             src="public/images/team/{{$id->image}}" alt="omelchenko">
                     </a>
                 </div>
                 <div class="col">
@@ -28,7 +28,7 @@
 
                         <div class="nav ос m-3">
                             <a href="{{$id->insta}}" target="_blank">
-                                <img class="w-50" src="../../images/logo/Instagram.png" alt="insta">
+                                <img class="w-50" src="public/images/logo/Instagram.png" alt="insta">
                             </a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col text-center">
                     <h4>СТАТИСТИКА</h4>
-                    <table class="table table-striped-columns table-group-divider">
+                    <table class="table table-hover table-striped-columns table-group-divider">
                         <thead>
                         <tr>
                             <th scope="col">Зіграно партій</th>
@@ -55,7 +55,7 @@
                         </tbody>
                     </table>
                     <h5>АТАКА</h5>
-                    <table class="table table-striped-columns table-group-divider">
+                    <table class="table table-hover table-striped-columns table-group-divider">
                         <thead>
                         <tr>
                             <th scope="col">Всього атак</th>
@@ -72,7 +72,7 @@
                         </tbody>
                     </table>
                     <h5>ПОДАЧА</h5>
-                    <table class="table table-striped-columns table-group-divider">
+                    <table class="table table-hover table-striped-columns table-group-divider">
                         <thead>
                         <tr>
                             <th scope="col">Всього</th>
@@ -93,9 +93,9 @@
                         <thead>
                         <tr>
                             <th scope="col">Всього</th>
-                            <th scope="col">Помилки</th>
-                            <th scope="col">Неативний</th>
-                            <th scope="col">Позитивний</th>
+                            <th scope="col">Ейс</th>
+                            <th scope="col">-</th>
+                            <th scope="col">+</th>
                         </tr>
                         </thead>
                         <tbody>
